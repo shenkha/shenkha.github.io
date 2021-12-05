@@ -1,0 +1,102 @@
+body {
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-family: 'Open Sans';
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  height: 500px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+nav p.name {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  margin-left: auto;
+}
+
+nav ul li {
+  margin: 0;
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+nav ul li.selected {
+  background-image: -webkit-gradient(linear, left top, right top, from(#00F973), to(#00F9A6));
+  background-image: linear-gradient(to right, #00F973, #00F9A6);
+  color: #212121;
+  padding: 5px 22px;
+  border-radius: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover {
+  opacity: 1;
+}
+
+div.content h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+div.content a {
+  padding: 15px 55px;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00F973), to(#00F9A6));
+  background-image: linear-gradient(to right, #00F973, #00F9A6);
+  color: #212121;
+  text-decoration: none;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+div.content a:hover {
+  padding: 15px 70px;
+}
+
+div.anh {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 0.05%;
+  height: auto;
+  border: 1px;
+  border-radius: 4px;
+  padding: 5px 5px;
+}
+/*# sourceMappingURL=index.css.map */
